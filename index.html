@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Wagenabled</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="./Images/Group.png">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='app.js'></script>
+</head>
+<body>
+    <div class="container-fluid header">
+      <div class="row">
+          <div class="col-md-4">
+            <a class="nav-brand" href="#"><img src="./Images/wag-header-bar-logo-white-01 1.png" alt="nav-brand"></a>
+          </div>
+          <div class="col-md-5 pt-md-2">
+              <a class="navlink" href="#">Home</a>
+              <a class="navlink" href="#">About Us</a>
+              <a class="navlink" href="#">Pet Pros</a>
+              <a class="navlink" href="#">Watch and Learn</a>
+          </div>
+          <div class="col-md-3 pt-md-1">
+            <a class="navlink" href="#">Login</a>
+            <a class="navlink" href="#"><button class="nav-btn">Become a Pro</button></a>
+          </div>
+      </div>
+      <div class="container-fluid pl-5 pt-5 Heading">
+            <h4>For Pet People, By Pet People</h4>
+            <p>Explore from 100’s of pet care professionals around your areas, learn<br> from pet care videos and look for best pet products</p>
+            <h5 class="pt-5">I would like to </h5>
+          <div class="row pt-5 boxes">
+              <div class="col-md-2 box1">
+                <p>Find a <br>Pet Professional</p>
+                <button class="box-btn">></button>
+                <img src="./Images/Layer 1 1.png" style="float: right;">
+              </div>
+              <div class="col-md-2 box2">
+                <p>Find a <br>Pet Professional</p>
+                <button class="box-btn">></button>
+                <img src="./Images/Layer 1 2.png" style="float: right; width: 195px;">
+              </div>
+              <div class="col-md-2 box3">
+                <p>Explore Pet<br> Care Advice</p>
+                <button class="box-btn">></button>
+                <img id="box3-img" src="./Images/cute-beagle-puppy-graduation-cap-removebg-preview 1.png" style="float: right;">
+              </div>
+              <div class="col-md-5 ml-2 side-img">
+                <img src="./Images/Dog Graphic 1.png" width="400px" style="float: right;">
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 section-B">
+        <h5><span><img src="./Images/Frame.png"></span>Pet Pro’s around you<span><img src="./Images/Frame (1).png" style="padding:10px;"></span></h5>
+        <p>Search our database of wag-tastic, top-ranked, local<br> pet care professionals for all of your pets.</p>
+    </div>
+    <div class="container"> 
+      <div class="row mx-auto"> 
+        <div class="col-md-3">
+          <div class="inner-form">
+            <div class="input-field">
+              <label for="category" class="category-label">Category</label><br>
+              <div class="input-select">
+                <select data-trigger="" name="choices-single-defaul" class="input-sel">
+                  <option placeholder="">All</option>
+                  <option>United States</option>
+                  <option>London</option>
+                  <option>Germany</option>
+                  <option>China</option>
+                  <option>Pakistan</option>
+                  <option>India</option>
+                  <option>UAE</option>
+                </select>
+              </div>
+            </div>
+        </div>
+        </div>
+          <div class="col-md-4">
+            <label for="location" class="category-label">Location (City, State, Zip)</label><br>
+            <input type="text" class="input-sel2" name="location" placeholder="California, United States" autocomplete="off"><br>
+          </div>
+          <div class="col-md-3">
+            <label for="keyword" class="category-label">keyword</label><br>
+            <input type="text" class="keyword" name="keyword" placeholder="All" autocomplete="off">
+          </div>
+          <div class="col-md-2 pt-2">
+            <br><button class="sec-btn">Search</button>
+          </div>
+      </div>
+      <div class="container sort pt-4" style="float: right;">
+          <p id="sort" class="float-right">Sort by
+            <select name="latest" id="latest">
+              <option value="Longer">Latest</option>
+              <option value="Old">Old</option>
+              <option value="Fashion">Fashion</option>
+              <option value="Ordered">Ordered</option>
+            </select>
+          </p>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-4">
+          <div class="section-c">
+            <img src="./Images/Rectangle 9.png" alt="Paws On Chicon" id="sec-c-img">
+            <span id="wag-foot"><img src="./Images/Group 13.png"><img src="./Images/Group 14.png"><img src="./Images/group 15.png"></span>
+            <h5 id="sec-c-1">Paws On Chicon<span id="rates"><img src="./Images/Vector (1).png" alt="rates"><span id="rates">5.0</span></span></h5>
+            <p id="para">Homemade Treats and Food, Pet<br> Store, Self Serve Dog...</p>
+            <button id="sec-c-btn"><span><img src="./Images/discount 1.png" alt="discount" style="padding:5px;"></span>Deal Offered</button>
+            <button id="sec-c-btn2"><span><img src="./Images/discount 1 (1).png" alt="discount" style="padding:5px;"></span>Certified</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="section-c">
+            <img src="./Images/Rectangle 10.png" alt="Liz’s Pet Care" id="sec-c-img">
+            <span id="wag-foot"><img src="./Images/Group 13.png"><img src="./Images/group 15.png"></span>
+            <h5 id="sec-c-1">Liz’s Pet Care<span id="rates"><img src="./Images/Vector (1).png" alt="rates"><span id="rates">5.0</span></span></h5>
+            <p id="para">Pet Sitter, Dog Training, Pet<br>Behaviour...</p>
+            <button id="sec-c-btn"><span><img src="./Images/discount 1.png" alt="discount" style="padding:5px;"></span>Deal Offered</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="section-c">
+            <img src="./Images/Rectangle 11.png" alt="Pet Behaviorist" id="sec-c-img">
+            <span id="wag-foot3"><img src="./Images/Group 13.png"></span>
+            <h5 id="sec-c-1">Pet Behaviorist<span id="rates"><img src="./Images/Vector (1).png" alt="rates"><span id="rates">5.0</span></span></h5>
+            <p id="para">Pet Sitter, Dog Training, Pet <br>Behaviour...</p>
+            <button id="sec-c-btn"><span><img src="./Images/discount 1.png" alt="discount" style="padding:5px;"></span>Deal Offered</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <img src="./Images/dog-graphics 2.png" width="100%" alt="Dog_Graphics">
+        </div>
+        <div class="col-md-4 pt-5">
+          <span><img src="./Images/section-D-vector.png" alt="Pic1"></span>
+          <p id="para1">Featured Product</p>
+          <h4>ZIWI Premium Pet Food</h4>
+          <p id="para3">Finding a healthy balance between a dog food that is healthy for your dog and one that tastes delicious can be difficult. While an all-natural raw diet is a new phase in the canine world, that doesn’t work for every household</p>
+          <button class="sec-btn2">See Product Review</button><span><a href="#" id="para2">About Company</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row section-F">
+        <div class="col-md-6" >
+          <div class="new-dog">
+            <img src="./Images/new_dog-images-02 1.png" id="new-dog">
+          </div>
+        </div>
+        <div class="col-md-6 pt-5">
+          <div class="section-D">
+          <h5 id="heading2">Are You Wag Enabled?</h5>
+          <p id="para4">Sign up for our newsletter to get exclusive deals and expert advice for you and your pet.</p>
+          <input type="text" class="keyword2" name="name" placeholder="Your Name" autocomplete="off">
+          <input type="text" class="keyword1" name="text" placeholder="ZipCode" autocomplete="off">
+          <input type="email" class="keyword3" name="email" placeholder="Your Email Address" autocomplete="off">
+          <button class="sec-btn3 mb-1">Join</button><br>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5 pb-5" id="footer">
+      <div class="row">
+        <div class="col-md-3 logo-footer">
+          <img src="./Images/Group.png"> 
+        </div>
+        <div class="col-md-3">
+          <p id="para5">Menu</p>
+          <ul class="nobull">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Find a Pro</a></li>
+          </ul>  
+        </div>
+        <div class="col-md-3">
+          <p id="para5">Legal</p>
+          <ul class="nobull">
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>  
+        </div>
+        <div class="col-md-3">
+          <p id="para5">Contact</p>
+          <ul class="nobull">
+            <li><a style="text-decoration: none; cursor: default;">Support@wagenabled.com</a></li>
+            <li>Contact us<a href="#">Here</a></li>
+          </ul>  
+          <span class="icons"><a href="#"><i class="fa fa-facebook" style="font-size:30px;color:white; background-color: #3B5998; padding: 5px; margin: 2px; border-radius: 5px;"></i></a><a href="#"><i class="fa fa-twitter" style="font-size:38px;color:#00acee; padding: 8px;"></i></a><a href="#"> <i class="fa fa-instagram fa-5x"></i></a><a href="#"><i class="fa fa-youtube-play fa-2x m-2 you-btn"></i></a></span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
